@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Санвади, Витебск: BRUSBOX, REHAU, фурнитура MACO, шоурум и подбор стекла и профиля. Окна, балконы, кухни."
+    />
+    <title>Санвади — окна и остекление | Витебск</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Outfit:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="logo" href="#top" aria-label="Санвади — на главную">
+          <span class="logo__mark" aria-hidden="true"></span>
+          <span class="logo__text">Санвади</span>
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          id="nav-toggle"
+        >
+          <span class="nav-toggle__lines" aria-hidden="true">
+            <span class="nav-toggle__bar"></span>
+            <span class="nav-toggle__bar"></span>
+            <span class="nav-toggle__bar"></span>
+          </span>
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Основная навигация">
+          <ul class="site-nav__list">
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#solutions">Остекление</a></li>
+            <li><a href="#choose">Что выбрать</a></li>
+            <li><a href="#materials">Материалы</a></li>
+            <li><a href="#glass">Стекло и профиль</a></li>
+            <li><a href="#showroom">Шоурум</a></li>
+            <li><a href="#why">Почему мы</a></li>
+            <li><a href="#contact">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero__bg" aria-hidden="true"></div>
+        <div class="hero__content">
+          <p class="hero__eyebrow">Частное унитарное предприятие · Витебск</p>
+          <h1 id="hero-title" class="hero__title">Окна, которые держат тепло и тишину</h1>
+          <p class="hero__lead">
+            Подбор профиля, точный замер и аккуратный монтаж — от квартиры до загородного дома.
+            Работаем с ПВХ и алюминием, остекляем балконы и лоджии.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contact">Запросить консультацию</a>
+            <a class="btn btn--ghost" href="#solutions">Виды остекления</a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <figure class="hero__figure">
+            <img
+              class="hero__photo"
+              src="images/hero-900.jpg"
+              srcset="
+                images/hero-600.jpg 600w,
+                images/hero-900.jpg 900w,
+                images/hero-1200.jpg 1200w
+              "
+              sizes="(max-width: 899px) min(100vw - 3rem, 520px), min(45vw, 520px)"
+              width="900"
+              height="1125"
+              alt="Современный интерьер с панорамными окнами и естественным светом"
+              fetchpriority="high"
+              decoding="async"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section section--muted" id="services" aria-labelledby="services-title">
+        <div class="section__inner">
+          <h2 id="services-title" class="section__title">Что делаем</h2>
+          <p class="section__intro">
+            Полный цикл по окнам и остеклению — без лишних посредников и непрозрачных смет.
+          </p>
+          <ul class="card-grid">
+            <li class="card">
+              <h3 class="card__title">Окна ПВХ и алюминий</h3>
+              <p class="card__text">
+                Подбор системы под шум, энергоэффективность и бюджет. Стеклопакеты с нужной толщиной и напылением.
+              </p>
+            </li>
+            <li class="card">
+              <h3 class="card__title">Балконы и лоджии</h3>
+              <p class="card__text">
+                Холодное и тёплое остекление, отделка и утепление — поэтапно, с понятными сроками.
+              </p>
+            </li>
+            <li class="card">
+              <h3 class="card__title">Замер и монтаж</h3>
+              <p class="card__text">
+                Выезд на объект, фиксация размеров и узлов примыкания. Монтаж по ГОСТ с контролем герметизации.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section--catalog" id="solutions" aria-labelledby="solutions-title">
+        <div class="section__inner">
+          <h2 id="solutions-title" class="section__title section__title--on-catalog">
+            Виды остекления
+          </h2>
+          <p class="section__intro section__intro--on-catalog">
+            Кратко о типовых решениях: от холодного алюминия до мультифункциональных стеклопакетов. На замере подберём вариант под задачу и бюджет.
+          </p>
+
+          <div class="catalog-grid">
+            <article class="product-card" aria-labelledby="p01-title">
+              <header class="product-card__head">
+                <span class="product-card__num">01</span>
+                <h3 id="p01-title" class="product-card__title">Алюминиевое раздвижное остекление</h3>
+              </header>
+              <p class="product-card__adv-label">Преимущества</p>
+              <ul class="product-card__list">
+                <li>лёгкость конструкции</li>
+                <li>доступная цена</li>
+                <li>экономия места (створки не распахиваются внутрь)</li>
+              </ul>
+              <div class="product-card__diagram" role="img" aria-label="Схема: четыре раздвижные створки">
+                <svg viewBox="0 0 240 100" width="240" height="100" focusable="false">
+                  <rect x="4" y="20" width="228" height="60" fill="none" stroke="#8a9bb0" stroke-width="2" rx="2" />
+                  <line x1="62" y1="20" x2="62" y2="80" stroke="#8a9bb0" stroke-width="1.5" />
+                  <line x1="120" y1="20" x2="120" y2="80" stroke="#8a9bb0" stroke-width="1.5" />
+                  <line x1="178" y1="20" x2="178" y2="80" stroke="#8a9bb0" stroke-width="1.5" />
+                  <rect x="10" y="28" width="48" height="44" fill="rgb(168 196 220 / 0.35)" stroke="#b0c4d8" />
+                  <rect x="68" y="28" width="48" height="44" fill="rgb(168 196 220 / 0.25)" stroke="#b0c4d8" />
+                  <rect x="126" y="28" width="48" height="44" fill="rgb(168 196 220 / 0.35)" stroke="#b0c4d8" />
+                  <rect x="184" y="28" width="48" height="44" fill="rgb(168 196 220 / 0.25)" stroke="#b0c4d8" />
+                </svg>
+              </div>
+              <p class="product-card__callout">
+                Подойдут для маленьких балконов и для тех, кто любит часто открывать окна.
+              </p>
+            </article>
+
+            <article class="product-card" aria-labelledby="p02-title">
+              <header class="product-card__head">
+                <span class="product-card__num">02</span>
+                <h3 id="p02-title" class="product-card__title">
+                  Окна ПВХ с однокамерным стеклопакетом (2 стекла)
+                </h3>
+              </header>
+              <p class="product-card__adv-label">Преимущества</p>
+              <ul class="product-card__list">
+                <li>недорогой вариант</li>
+                <li>достаточная изоляция для умеренного климата</li>
+                <li>лёгкость (не требует серьёзного усиления)</li>
+              </ul>
+              <div class="product-card__diagram" role="img" aria-label="Схема: два стекла и дистанционная рамка">
+                <svg viewBox="0 0 200 110" width="200" height="110" focusable="false">
+                  <rect x="15" y="25" width="75" height="60" fill="rgb(180 210 235 / 0.5)" stroke="#5a6a7a" stroke-width="1.5" />
+                  <rect x="95" y="35" width="10" height="40" fill="#3a4555" />
+                  <rect x="110" y="25" width="75" height="60" fill="rgb(180 210 235 / 0.5)" stroke="#5a6a7a" stroke-width="1.5" />
+                  <rect x="98" y="32" width="9" height="6" fill="rgb(230 140 60 / 0.6)" />
+                </svg>
+              </div>
+              <p class="product-card__callout">
+                Подходит для нежилых балконов, защиты от дождя и пыли.
+              </p>
+            </article>
+
+            <article class="product-card" aria-labelledby="p03-title">
+              <header class="product-card__head">
+                <span class="product-card__num">03</span>
+                <h3 id="p03-title" class="product-card__title">
+                  Окна ПВХ с двухкамерным стеклопакетом (3 стекла)
+                </h3>
+              </header>
+              <p class="product-card__adv-label">Преимущества</p>
+              <ul class="product-card__list">
+                <li>максимальное тепло в любое время года: на 40% теплее однокамерных</li>
+                <li>отличная шумоизоляция: снижают шум до 35 дБ</li>
+                <li>отсутствие конденсата даже при −30&nbsp;°C</li>
+              </ul>
+              <div class="product-card__diagram" role="img" aria-label="Схема: три стекла, две камеры">
+                <svg viewBox="0 0 220 110" width="220" height="110" focusable="false">
+                  <rect x="10" y="25" width="55" height="60" fill="rgb(175 205 230 / 0.55)" stroke="#5a6a7a" stroke-width="1.5" />
+                  <rect x="70" y="32" width="8" height="46" fill="#3a4555" />
+                  <rect x="82" y="35" width="8" height="40" fill="rgb(200 165 100 / 0.5)" />
+                  <rect x="93" y="25" width="55" height="60" fill="rgb(175 205 230 / 0.55)" stroke="#5a6a7a" stroke-width="1.5" />
+                  <rect x="153" y="32" width="8" height="46" fill="#3a4555" />
+                  <rect x="165" y="35" width="8" height="40" fill="rgb(200 165 100 / 0.5)" />
+                  <rect x="176" y="25" width="34" height="60" fill="rgb(175 205 230 / 0.55)" stroke="#5a6a7a" stroke-width="1.5" />
+                </svg>
+              </div>
+              <p class="product-card__callout">
+                Подойдёт для зимнего использования жилых балконов и шумных районов.
+              </p>
+            </article>
+
+            <article class="product-card" aria-labelledby="p04-title">
+              <header class="product-card__head">
+                <span class="product-card__num">04</span>
+                <h3 id="p04-title" class="product-card__title">
+                  Окна ПВХ с многофункциональным стеклопакетом «Антижара»
+                </h3>
+              </header>
+              <p class="product-card__adv-label">Преимущества</p>
+              <ul class="product-card__list">
+                <li>энергосбережение: сохраняют тепло зимой, прохладу летом</li>
+                <li>защита от солнца: отражают до 60% солнечных лучей</li>
+                <li>отсутствие конденсата даже при −30&nbsp;°C</li>
+              </ul>
+              <div class="product-card__diagram" role="img" aria-label="Схема: стеклопакет и отражение солнечных лучей">
+                <svg viewBox="0 0 240 120" width="240" height="120" focusable="false">
+                  <line x1="10" y1="15" x2="70" y2="55" stroke="rgb(255 220 100)" stroke-width="3" stroke-linecap="round" />
+                  <line x1="10" y1="25" x2="55" y2="58" stroke="rgb(255 220 100 / 0.6)" stroke-width="2" />
+                  <line x1="70" y1="55" x2="130" y2="25" stroke="rgb(120 180 255)" stroke-width="2" stroke-dasharray="4 3" />
+                  <rect x="85" y="40" width="130" height="55" fill="rgb(175 205 230 / 0.4)" stroke="#5a6a7a" stroke-width="1.5" rx="1" />
+                  <line x1="115" y1="45" x2="115" y2="90" stroke="#3a4555" stroke-width="2" />
+                  <line x1="145" y1="45" x2="145" y2="90" stroke="#3a4555" stroke-width="2" />
+                  <g transform="translate(198 78)">
+                    <rect x="0" y="0" width="10" height="28" rx="5" fill="none" stroke="#e85d04" stroke-width="1.5" />
+                    <line x1="5" y1="8" x2="5" y2="22" stroke="#e85d04" stroke-width="2" stroke-linecap="round" />
+                  </g>
+                </svg>
+              </div>
+              <p class="product-card__callout">
+                Идеально для жилых балконов, особенно с солнечной стороны.
+              </p>
+            </article>
+
+            <article class="product-card product-card--accent-red" aria-labelledby="p05-title">
+              <header class="product-card__head">
+                <span class="product-card__num product-card__num--red">05</span>
+                <h3 id="p05-title" class="product-card__title">
+                  Окна ПВХ от потолка до пола (французское остекление)
+                </h3>
+              </header>
+              <p class="product-card__adv-label">Преимущества</p>
+              <ul class="product-card__list">
+                <li>визуально увеличивают пространство: балкон кажется больше</li>
+                <li>много света</li>
+                <li>премиальный вид: сразу повышает «статус» квартиры</li>
+              </ul>
+              <div class="product-card__diagram" role="img" aria-label="Схема: высокое окно на всю стену">
+                <svg viewBox="0 0 120 160" width="120" height="160" focusable="false">
+                  <rect x="15" y="10" width="90" height="140" fill="rgb(200 220 240 / 0.25)" stroke="#c8d4e0" stroke-width="2" rx="2" />
+                  <line x1="15" y1="55" x2="105" y2="55" stroke="#c8d4e0" stroke-width="1.5" />
+                  <line x1="15" y1="100" x2="105" y2="100" stroke="#c8d4e0" stroke-width="1.5" />
+                  <line x1="60" y1="10" x2="60" y2="150" stroke="#c8d4e0" stroke-width="1.5" />
+                </svg>
+              </div>
+              <p class="product-card__callout">
+                Подойдёт для дизайнерских решений и ремонта в новостройках.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--choose" id="choose" aria-labelledby="choose-title">
+        <div class="section__inner">
+          <h2 id="choose-title" class="section__title">Что выбрать?</h2>
+          <p class="section__intro">
+            Ориентир по задаче: бюджет, тепло или максимум комфорта. Точный вариант — после осмотра объекта.
+          </p>
+          <div class="choose-grid">
+            <div class="choose-row">
+              <span class="choose-row__label">Бюджетно</span>
+              <span class="choose-row__arrow" aria-hidden="true">→</span>
+              <span class="choose-row__value">холодное алюминиевое раздвижное остекление</span>
+            </div>
+            <div class="choose-row">
+              <span class="choose-row__label">Тепло + экономия</span>
+              <span class="choose-row__arrow" aria-hidden="true">→</span>
+              <span class="choose-row__value">ПВХ с однокамерным стеклопакетом</span>
+            </div>
+            <div class="choose-row">
+              <span class="choose-row__label">Максимум комфорта</span>
+              <span class="choose-row__arrow" aria-hidden="true">→</span>
+              <span class="choose-row__value">ПВХ с двухкамерным или многофункциональным стеклопакетом</span>
+            </div>
+          </div>
+          <aside class="choose-tip" role="note">
+            <p>
+              <strong>Рекомендация:</strong> для жилого помещения оптимальны пластиковые окна с
+              <strong>двухкамерным стеклопакетом</strong> — баланс тепла, шума и стоимости.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section section--muted" id="materials" aria-labelledby="materials-title">
+        <div class="section__inner">
+          <h2 id="materials-title" class="section__title">Материалы, с которыми мы работаем</h2>
+          <p class="section__intro section__intro--left">
+            Качество балкона и окон начинается с материалов. Мы используем проверенные системы и фурнитуру — каждый элемент подбираем под ваши задачи.
+          </p>
+
+          <h3 class="subsection-title">Окна и двери</h3>
+          <ul class="material-checklist">
+            <li><strong>ПВХ-профили:</strong> системы <strong>BRUSBOX</strong> и <strong>REHAU</strong></li>
+            <li><strong>Фурнитура:</strong> премиальная <strong>MACO</strong> (Австрия)</li>
+            <li>
+              <strong>Стеклопакеты:</strong> стекло 4&nbsp;мм и 6&nbsp;мм, закалка, тонировка — по назначению
+            </li>
+          </ul>
+
+          <div class="brand-grid">
+            <article class="brand-card" aria-labelledby="brand-brus-title">
+              <h3 id="brand-brus-title" class="brand-card__title">Почему BRUSBOX и REHAU?</h3>
+              <p class="brand-card__lead">Эти системы — неслучайный выбор:</p>
+              <ul class="brand-card__list">
+                <li>
+                  <strong>BRUSBOX</strong> — идеальная геометрия, устойчивость к деформациям
+                </li>
+                <li>
+                  <strong>REHAU</strong> — немецкое качество с многолетней гарантией
+                </li>
+              </ul>
+              <p class="brand-card__foot">Оба варианта дают сильную шумо- и теплоизоляцию.</p>
+            </article>
+            <aside class="maco-card" aria-labelledby="maco-title">
+              <h3 id="maco-title" class="maco-card__title">Австрийская фурнитура MACO — залог долговечности</h3>
+              <p class="maco-card__question">Почему мы не экономим на фурнитуре?</p>
+              <ul class="maco-card__list">
+                <li>ресурс работы — <strong>20+ лет</strong></li>
+                <li>плавное открывание без скрипов</li>
+                <li>полная безопасность — защита от взлома (<strong>класс WK2</strong>)</li>
+                <li>сертифицированное качество, соответствие европейским стандартам</li>
+              </ul>
+              <p class="maco-card__tagline">
+                Это тот случай, когда каждая копейка окупается годами комфорта.
+              </p>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="glass" aria-labelledby="glass-title">
+        <div class="section__inner">
+          <h2 id="glass-title" class="section__title">Стеклопакеты: тонкости выбора</h2>
+          <p class="glass-section__lead">Как понять, что вам нужно:</p>
+          <div class="glass-cards">
+            <article class="glass-card">
+              <h3 class="glass-card__label"><span class="glass-card__mm">4&nbsp;мм</span></h3>
+              <p class="glass-card__text">Базовый вариант для остекления.</p>
+            </article>
+            <article class="glass-card">
+              <h3 class="glass-card__label"><span class="glass-card__mm">6&nbsp;мм</span></h3>
+              <p class="glass-card__text">Для шумных улиц и суровых зим: лучше по звуку и теплу.</p>
+            </article>
+            <article class="glass-card">
+              <h3 class="glass-card__label">Закалённое стекло</h3>
+              <p class="glass-card__text">Прочнее и безопаснее при ударе.</p>
+            </article>
+            <article class="glass-card">
+              <h3 class="glass-card__label">Тонировка</h3>
+              <p class="glass-card__text">Защита от солнца и лишних взглядов.</p>
+            </article>
+          </div>
+          <aside class="glass-tip glass-tip--cream" role="note">
+            <p>
+              Для балконов на <strong>солнечной стороне</strong> советуем тонировку — сохранит прохладу летом.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section section--muted" id="profile" aria-labelledby="profile-title">
+        <div class="section__inner section__inner--narrow-text">
+          <h2 id="profile-title" class="section__title">Какой профиль подойдёт вам?</h2>
+          <p class="section__intro section__intro--left">Зависит от:</p>
+          <ul class="profile-list">
+            <li><strong>этажа</strong> — нагрузка и требования к усилению</li>
+            <li><strong>стороны света</strong> — солнце, перегрев, конденсат</li>
+            <li>
+              <strong>ваших приоритетов</strong> — шумозащита, тепло или бюджет; на замере сведём в одно решение
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section--showroom" id="showroom" aria-labelledby="showroom-title">
+        <div class="section__inner">
+          <h2 id="showroom-title" class="section__title">Шоурум</h2>
+          <p class="section__intro">
+            <strong>Индивидуальный подход:</strong> с экспертами можно детально обсудить идеи, потребности и особенности
+            пространства — поможем адаптировать проект под ваш запрос (окна, балкон, кухни).
+          </p>
+          <div class="showroom-grid">
+            <article class="showroom-card">
+              <p class="showroom-card__badge">Образцы</p>
+              <h3 class="showroom-card__title">Демонстрация готовых решений</h3>
+              <p class="showroom-card__text">
+                Выставочные образцы, чтобы оценить преимущества материалов и отделок вживую.
+              </p>
+            </article>
+            <article class="showroom-card">
+              <p class="showroom-card__badge">Уверенность</p>
+              <h3 class="showroom-card__title">Правильный выбор</h3>
+              <p class="showroom-card__text">
+                После визита проще принять решение: видно качество, фактуру и сочетание цветов.
+              </p>
+            </article>
+            <article class="showroom-card">
+              <p class="showroom-card__badge">Сравнение</p>
+              <h3 class="showroom-card__title">Варианты на месте</h3>
+              <p class="showroom-card__text">
+                Сразу сравнить стили, материалы и оттенки — более взвешенный выбор.
+              </p>
+            </article>
+            <article class="showroom-card">
+              <p class="showroom-card__badge">Время</p>
+              <h3 class="showroom-card__title">Экономия времени</h3>
+              <p class="showroom-card__text">
+                Забудьте про бесконечные звонки и переписку: за один визит получите то, что нужно для решения.
+              </p>
+            </article>
+            <article class="showroom-card">
+              <p class="showroom-card__badge">Ощущения</p>
+              <h3 class="showroom-card__title">Текстура и плотность</h3>
+              <p class="showroom-card__text">
+                Не только смотреть, но и ощутить материалы — так проще принять уверенное решение.
+              </p>
+            </article>
+            <article class="showroom-card">
+              <p class="showroom-card__badge">Эксперты</p>
+              <h3 class="showroom-card__title">Живой контакт</h3>
+              <p class="showroom-card__text">
+                Ничто не заменит личного общения: задайте вопросы и получите консультацию специалистов.
+              </p>
+            </article>
+          </div>
+          <p class="showroom-cta-wrap">
+            <a class="btn btn--primary btn--showroom" href="#contact">Записаться на консультацию</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="why" aria-labelledby="why-title">
+        <div class="section__inner section__inner--split">
+          <div>
+            <h2 id="why-title" class="section__title">Почему Санвади</h2>
+            <p class="section__intro section__intro--left">
+              Мы из Витебска и знаем местные дома: типовые серии, частные коттеджи, дачи. Объясняем варианты простым языком — без давления и «акций навсегда».
+            </p>
+            <ul class="checklist">
+              <li>Прозрачная смета до начала работ</li>
+              <li>Гарантия на изделия и монтажные работы</li>
+              <li>Сопровождение от замера до сдачи объекта</li>
+            </ul>
+          </div>
+          <figure class="figure-block figure-block--photo">
+            <div class="figure-block__media">
+              <img
+                src="images/why-800.jpg"
+                srcset="
+                  images/why-500.jpg 500w,
+                  images/why-800.jpg 800w
+                "
+                sizes="(max-width: 799px) 100vw, 40vw"
+                width="800"
+                height="600"
+                alt="Фасад дома с белыми окнами ПВХ — пример аккуратного остекления"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <blockquote class="figure-block__quote">
+              <p>
+                «Хорошее окно — это не только профиль, но и правильный монтажный шов и фурнитура. Мы закладываем это в проект с первого визита.»
+              </p>
+            </blockquote>
+            <figcaption class="figure-block__cap">Команда Санвади</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section section--accent" id="contact" aria-labelledby="contact-title">
+        <div class="section__inner section__inner--narrow">
+          <h2 id="contact-title" class="section__title section__title--on-dark">Связаться</h2>
+          <p class="section__intro section__intro--on-dark">
+            Оставьте заявку — перезвоним, уточним задачу и согласуем время замера или визита в шоурум. Укажите телефон, чтобы мы могли быстро связаться с вами.
+          </p>
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="field">
+              <label for="name">Имя</label>
+              <input id="name" name="name" type="text" autocomplete="name" />
+            </div>
+            <div class="field">
+              <label for="phone">Телефон</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" />
+            </div>
+            <div class="field field--full">
+              <label for="message">Комментарий</label>
+              <textarea id="message" name="message" rows="3"></textarea>
+            </div>
+            <div class="field field--full contact-form__actions">
+              <button class="btn btn--primary btn--on-dark" type="submit">Отправить</button>
+              <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            </div>
+          </form>
+          <p class="contact-note">
+            Официальный сайт компании:
+            <a href="https://sanvadi.by/" rel="noopener noreferrer">sanvadi.by</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <p class="site-footer__brand">ЧТУП «Санвади», г. Витебск</p>
+        <p class="site-footer__meta">
+          Окна, остекление балконов и лоджий, кухни на заказ. Актуальные цены, режим работы и реквизиты —
+          <a href="https://sanvadi.by/" rel="noopener noreferrer">sanvadi.by</a>.
+        </p>
+      </div>
+    </footer>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>
